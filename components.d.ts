@@ -16,12 +16,15 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TheBanner: typeof import('./src/components/TheBanner.vue')['default']
+    TheCreateTeam: typeof import('./src/components/form/TheCreateTeam.vue')['default']
     TheHeader: typeof import('./src/components/layouts/TheHeader.vue')['default']
+    TheHeaderAdmin: typeof import('./src/components/dashboard/TheHeaderAdmin.vue')['default']
     TheHeaderBar: typeof import('./src/components/layouts/TheHeaderBar.vue')['default']
     TheheaderMain: typeof import('./src/components/layouts/TheheaderMain.vue')['default']
     TheInfoRaceNow: typeof import('./src/components/layouts/TheInfoRaceNow.vue')['default']
     TheMenuHome: typeof import('./src/components/TheMenuHome.vue')['default']
     TheProduct: typeof import('./src/components/products/TheProduct.vue')['default']
     TheProductList: typeof import('./src/components/products/TheProductList.vue')['default']
+    TheSideBar: typeof import('./src/components/dashboard/TheSideBar.vue')['default']
   }
 }
