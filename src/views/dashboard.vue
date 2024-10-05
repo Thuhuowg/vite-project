@@ -10,7 +10,7 @@
             <div class="col-sm-8">
                 <TheCreateTeam></TheCreateTeam>
             </div>
-        </div>
+           
             
         </div>
     
@@ -21,11 +21,15 @@ import TheSideBar from '../components/dashboard/TheSideBar.vue';
 import TheCreateTeam from '../components/form/TheCreateTeam.vue';
 
 
+
+
 export default {
     components : {
         TheHeaderAdmin,
         TheSideBar,
-        TheCreateTeam
+        TheCreateTeam,
+        TheListTeamsVue
     }
 }
+
 </script>

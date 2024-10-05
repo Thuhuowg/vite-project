@@ -4,6 +4,7 @@
         <TheheaderMain></TheheaderMain>
         <TheHeaderBar></TheHeaderBar>
         <TheInfoRaceNow></TheInfoRaceNow>
+        
     </div>
         <div class="min-h-screen " >
             <div class="">
@@ -26,7 +27,8 @@
                 <div>02</div>
                 <div>03</div>
             </div> -->
-        </div>
+
+    </div>
     </div>
 </template>
 <script>
@@ -35,6 +37,7 @@ import TheHeaderBar from '../components/layouts/TheHeaderBar.vue';
 import TheheaderMain from '../components/layouts/TheheaderMain.vue';
 import TheInfoRaceNow from '../components/layouts/TheInfoRaceNow.vue';
 import TheBannerRace from '../components/races/TheBanner.vue';
+
 // import TheBanner from '../components/TheBanner.vue'
 
 import TheMenuHome from '../components/TheMenuHome.vue'
@@ -46,7 +49,8 @@ export default {
         TheheaderMain,
         TheHeaderBar,
         TheInfoRaceNow,
-        TheBannerRace
+        TheBannerRace,
+        TheFooter
     }
    
 }

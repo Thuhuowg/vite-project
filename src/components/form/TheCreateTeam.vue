@@ -1,21 +1,25 @@
 <template>
-    <div class="mb-3">
-  <label for="team_name" class="form-label">Team name</label>
-  <input type="text" class="form-control" id="team_name" placeholder="Example input placeholder">
-</div>
-<div class="mb-3">
-  <label for="motobike" class="form-label">Motobike</label>
-  <input type="text" class="form-control" id="motobike" placeholder="Another input placeholder">
-</div>
-<div class="mb-3">
-  <label for="moto_brand" class="form-label">Moto brand</label>
-  <input type="text" class="form-control" id="moto_brand" placeholder="Example input placeholder">
-</div>
-<div class="mb-3">
-  <label for="formFile" class="form-label">moto image</label>
-  <input class="form-control" type="file" id="formFile">
-</div>
-<div class="mb-3">
-    <button type="submit" class="btn btn-primary">Submit</button>
+  <div>
+    <h2>Tạo đội</h2>
+    <form @submit.prevent="createTeam">
+      <div>
+        <label for="team_name">Tên đội:</label>
+        <input type="text" v-model="teamName" id="team_name" required />
+      </div>
+      <div>
+        <label for="motobike">Xe máy:</label>
+        <input type="text" v-model="motobike" id="motobike" required />
+      </div>
+      <div>
+        <label for="moto_brand">Hãng xe:</label>
+        <input type="text" v-model="motoBrand" id="moto_brand" required />
+      </div>
+      <div>
+        <label for="moto_image">Hình ảnh xe:</label>
+         <input type="file" id="motoImage" @change="onFileChange" />
+      </div>
+      <button type="submit">Tạo đội</button>
+    </form>
   </div>
+  
 </template>
