@@ -1,15 +1,16 @@
 <template>
     <div class="container-fluid p-0">
-        <div class="layout fixed-top">
+    <div class="layout fixed-top">
         <TheheaderMain></TheheaderMain>
         <TheHeaderBar></TheHeaderBar>
         <TheInfoRaceNow></TheInfoRaceNow>
         
     </div>
         <div class="min-h-screen " >
-            <div class="">
+            <router-view ></router-view>
+            <!-- <div class="">
                 <TheBannerRace></TheBannerRace>
-            </div>
+            </div> -->
 
             <!-- <div class="flex flex-col space-y-4 mt-10">
                 <div>
@@ -27,8 +28,10 @@
                 <div>02</div>
                 <div>03</div>
             </div> -->
-
-    </div>
+        </div>
+        <footer class="bg-light text-center py-5">
+            <TheFooter></TheFooter>
+        </footer>
     </div>
 </template>
 <script>
@@ -37,7 +40,8 @@ import TheHeaderBar from '../components/layouts/TheHeaderBar.vue';
 import TheheaderMain from '../components/layouts/TheheaderMain.vue';
 import TheInfoRaceNow from '../components/layouts/TheInfoRaceNow.vue';
 import TheBannerRace from '../components/races/TheBanner.vue';
-
+import TheFooter from '../components/layouts/TheFooter.vue'
+import Calendar from '../components/Calendar.vue';
 // import TheBanner from '../components/TheBanner.vue'
 
 import TheMenuHome from '../components/TheMenuHome.vue'
@@ -51,7 +55,6 @@ export default {
         TheInfoRaceNow,
         TheBannerRace,
         TheFooter
-    }
-   
+    },
 }
 </script>

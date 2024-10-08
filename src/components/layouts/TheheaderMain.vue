@@ -33,12 +33,12 @@
           </div>
           <div class="col-sm-3 title-header">
             <a class="header-link" href="https://timingpass.motogp.com/en/">
-              MotoGP™<span class="text-red">TIMINGPASS</span>
+              <img src="https://www.motogp.com/resources/v7.8.0/i/svg-files/elements/motogp-timingpass-logo-white.svg" alt="" style="width: 120px;">
           </a>
           </div>
           <div class="col-sm-2 title-header">
             <a class="header-link" href="/en/videopass">
-              MotoGP™ <span class="text-red">VIDEOPASS</span>
+              <img src="https://www.motogp.com/resources/v7.8.0/i/svg-files/elements/motogp-videopass-logo-white.svg" alt="" style="width: 120px;">
           </a>
           </div>
         </div>
@@ -49,8 +49,10 @@
           <div class="col-sm-1 line-header">
 
           </div>
-          <div class="col-sm-3">
-            <a href="https://www.fim-moto.com/" target="_blank" class="global-top-navigation__fim-logo" aria-label="FIM Logo"></a>
+          <div class="col-sm-3 mt-2">
+            <a href="https://www.fim-moto.com/" target="_blank" class="global-top-navigation__fim-logo" aria-label="FIM Logo">
+              <img src="https://www.motogp.com/resources/v7.8.0/i/svg-files/elements/fim-logo-75.svg" alt="">
+            </a>
           </div>
         </div>
       </div>

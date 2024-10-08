@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   padding: 0px;
-  font-family: MotoGPTextLight, helvetica, sans-serif;
+  font-family:  helvetica, sans-serif;
 }
 .header {
   height: 43px;
@@ -83,7 +83,7 @@
   line-height: 15px;
 }
 .infor-race-now {
-  background-color: rgb(198, 34, 34);
+  background-color: rgb(61, 47, 47);
   color: #fff;
   height: 50px;
   display: flex;
@@ -94,9 +94,85 @@
 .info {
   text-align: center;
 }
+.button-icon {
+  border-radius: 5px;
+  background-color: rgb(187, 34, 34);
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border: 0px;
+}
+.header-calendar {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 15px;
+  color: #fff;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  
+}
+.group-choice {
+  width: 90%;
+  justify-items: center;
+  margin: 0px auto;
+  padding: 20px;
 
+  background-color: white; /* Màu nền */
+            padding: 20px;           /* Khoảng cách bên trong */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng */
+            transition: box-shadow 0.3s; 
+}
+.calendar {
+ 
+  margin: 0px auto;
+  background-color: white; /* Màu nền */
+            padding: 20px;           /* Khoảng cách bên trong */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng */
+            transition: box-shadow 0.3s; 
 
+}
+.main-calendar {
+  width: 90%;
+  justify-items: center;
+  margin: 0px auto;
+  padding: 20px;
 
+}
+.content-large {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 15px;
+}
+.newsletter-section {
+  background-color: #1d1d1d;
+  color: white;
+}
+
+.sponsors img {
+  max-height: 80px;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer ul li {
+  color: #666;
+}
+
+.app-links img {
+  width: 150px;
+  margin: 0 10px;
+}
+
+.social-media i {
+  margin: 0 10px;
+  color: #333;
+}
+.list-brand {
+  width: 40%;
+}
 /* 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

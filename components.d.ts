@@ -7,19 +7,26 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    AAvatar: typeof import('ant-design-vue/es')['Avatar']
+    ACard: typeof import('ant-design-vue/es')['Card']
+    ACardMeta: typeof import('ant-design-vue/es')['CardMeta']
     AMenu: typeof import('ant-design-vue/es')['Menu']
+    Calendar: typeof import('./src/components/Calendar.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    ListRider: typeof import('./src/components/ListRider.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TheBanner: typeof import('./src/components/TheBanner.vue')['default']
+    TheCreateRider: typeof import('./src/components/form/TheCreateRider.vue')['default']
     TheCreateTeam: typeof import('./src/components/form/TheCreateTeam.vue')['default']
-    
+    TheFooter: typeof import('./src/components/layouts/TheFooter.vue')['default']
     TheHeader: typeof import('./src/components/layouts/TheHeader.vue')['default']
     TheHeaderAdmin: typeof import('./src/components/dashboard/TheHeaderAdmin.vue')['default']
     TheHeaderBar: typeof import('./src/components/layouts/TheHeaderBar.vue')['default']
     TheheaderMain: typeof import('./src/components/layouts/TheheaderMain.vue')['default']
     TheInfoRaceNow: typeof import('./src/components/layouts/TheInfoRaceNow.vue')['default']
-    
+    TheListTeam: typeof import('./src/components/form/TheListTeam.vue')['default']
+    TheListTeams: typeof import('./src/components/form/TheListTeams.vue')['default']
     TheMenuHome: typeof import('./src/components/TheMenuHome.vue')['default']
     TheProduct: typeof import('./src/components/products/TheProduct.vue')['default']
     TheProductList: typeof import('./src/components/products/TheProductList.vue')['default']
