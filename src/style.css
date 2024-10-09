@@ -225,7 +225,8 @@ footer ul li {
 .rider-banner {
   margin-top: 162px;  
   background: linear-gradient(to right, black, rgb(72, 21, 21));
-  height: 500px;
+  height: 550px;
+
 }
 .custom-link {
   text-decoration: none;
@@ -268,6 +269,12 @@ footer ul li {
             font-size: 20px;
             font-weight: 500;
 }
+.all-rider, .info-title {
+  text-align: start;
+}
+/* .info-title {
+  text-align: start;
+} */
 /* body tr td .info-title {
   color: grey !important;
 } */

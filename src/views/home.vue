@@ -4,6 +4,7 @@
         <TheheaderMain></TheheaderMain>
         <TheHeaderBar></TheHeaderBar>
         <TheInfoRaceNow></TheInfoRaceNow>
+        
     </div>
         <div class="min-h-screen " >
             <router-view ></router-view>

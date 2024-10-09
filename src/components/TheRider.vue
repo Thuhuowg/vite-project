@@ -1,7 +1,7 @@
 <template>
     <div class="rider-banner p-5 d-flex">
-        <div class="col-sm-6">
-            <div class="col">
+        <div class="col-sm-6 all-rider">
+            <div class="col" >
             <font-awesome-icon :icon="['fas', 'chevron-left']" class="me-2" style="width: 30px; color: #aaa7a7;" />
             <a class="custom-link" href="">All riders</a>
         </div>
@@ -36,7 +36,7 @@
             <div class="point">8</div>
         </div>
     </div>
-    <div class="row background-grey mt-4">
+    <div class="row background-grey mt-4 mb-5">
         <div class="">
             <!-- <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/19/ca002749-a487-432f-879e-e44969678daa/rider-bio_eneabastianini.png?height=300&width=200" alt=""> -->
         </div>
@@ -47,7 +47,7 @@
     </div>
   </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6" style="margin-top: 55px;">
             <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/19/3a568eee-1e12-4091-b120-f53c71cbe8f6/rider-bio_francescobagnaia.png?height=400&width=600" alt="" style="width: 100%;">
         </div>
     </div>
@@ -57,7 +57,7 @@
                 Rider Story
             </div>
             <div class="rider-story">
-                <p>Italian Francesco Bagnaia moved to the highly competitive CEV Championship in Spain in 2010, and he came third overall that year. He was reconfirmed for the Monlau Competicion team for 2012 and won another race before the step up to the World Championship, where he partnered Roman Fenati in the Team Italia FMI in 2013. For 2014 he switched teams as well as machinery as he lined up for the Sky Racing Team VR46 on a KTM, and 2015 brought another new challenge with the new Aspar Team Mahindra. Ending the year as the top Mahindra rider, the Italian was also frequently involved in the podium battle, retaining his seat for 2016 and going on to take not only a maiden win in Assen, but also a second win in Sepang. Earning a test ride on the team’s MotoGP™ machine in Valencia at the end of the season, Bagnaia moved up to Moto2™ in 2017 with the new Sky Racing Team VR46 intermediate class effort and was Rookie of the Year, taking several podiums. In 2018 he hit the ground running and was a contender for the crown from the off, with some incredible wins and consistency seeing him eventually take the title in Malaysia.
+                <p class="text-start">Italian Francesco Bagnaia moved to the highly competitive CEV Championship in Spain in 2010, and he came third overall that year. He was reconfirmed for the Monlau Competicion team for 2012 and won another race before the step up to the World Championship, where he partnered Roman Fenati in the Team Italia FMI in 2013. For 2014 he switched teams as well as machinery as he lined up for the Sky Racing Team VR46 on a KTM, and 2015 brought another new challenge with the new Aspar Team Mahindra. Ending the year as the top Mahindra rider, the Italian was also frequently involved in the podium battle, retaining his seat for 2016 and going on to take not only a maiden win in Assen, but also a second win in Sepang. Earning a test ride on the team’s MotoGP™ machine in Valencia at the end of the season, Bagnaia moved up to Moto2™ in 2017 with the new Sky Racing Team VR46 intermediate class effort and was Rookie of the Year, taking several podiums. In 2018 he hit the ground running and was a contender for the crown from the off, with some incredible wins and consistency seeing him eventually take the title in Malaysia.
 <br>
 <br>
 Impressive in his first outings in the premier class in testing, Bagnaia moved up to MotoGP™ with Pramac Racing in 2019. It was a difficult rookie year for Bagnaia but a fantastic P4 in Australia showed plenty signs of promise. 2020 proved a mixed year for the Italian and his GP-20. He earned an impressive second place in the San Marino GP and a week later at the same track, he was on the verge of a maiden premier class victory until a heartbreaking slide off the track ended his hopes. He never quite got going again in the remaining races but 2021 brought renewed hope for Pecco in the factory squad. Three podiums and a pole at the opening four rounds signalled the Italian as a title contender and, despite a blip in the middle of the season, he finished the year as the form man of the Championship. A debut MotoGP™ win came at Aragon after an incredible head-to-head with Marc Marquez, and he backed it up with victory in Misano a week after. His title charge slipped through his fingers with a crash during our second visit to Misano, but he did add victories at the final two rounds of the year.

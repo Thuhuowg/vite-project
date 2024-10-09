@@ -11,6 +11,8 @@ import { far } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 library.add(fab, fas, far)
 import 'ant-design-vue/dist/reset.css';
+import axios from 'axios';
+window.axios=axios;
 import { 
     Button,
     Menu,
