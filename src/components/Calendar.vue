@@ -36,12 +36,12 @@
         </div>
       </div>
     </div>
-    <div v-for="(matches, month) in groupedCalendarData" :key="month"  class="calendar-event col-sm-12 d-flex align-items-center">
-        <div class="content-large">
+    <div v-for="(matches, month) in groupedCalendarData" :key="month"  class="calendar-event col-sm-12 d-flex align-items-center ms-5 me-5 row">
+        <div class="content-large text-start mt-5 ms-4 mb-3">
           <h2 class="content-large">{{ month }}</h2>
       </div>
-      <div v-for="event in matches" :key="event.race_id"  class="" style="">
-      <div class="calendar row " style="margin-top: 50px;width: 1400px;height: 150px;">
+      <div   class="" style="">
+      <div v-for="event in matches" :key="event.race_id" class="calendar row " style="margin-bottom: 50px;height: 150px;margin-right: 100px;">
       
         <div class="col-sm-3 col d-flex align-items-center" >
           <div class="">
@@ -49,10 +49,10 @@
                 {{ event.active === 1 ? 'Finish' : 'Upcoming' }}
               </h6>-->
 
-          <div class="content-large" >
-            <h2 class="ml-2 content-large">{{ event.date_start }}</h2>
-            <h2 class="m-1 mb-3 content-large">-</h2>
-            <h2 class="ml-2 content-large">{{ event.date_end }}</h2>
+          <div class="content-large row" >
+            <h2 class="col ml-2 content-large">{{ event.date_start }}</h2>
+            <h2 class="col p-0 mb-3 content-large">-</h2>
+            <h2 class=" col ml-2 content-large">{{ event.date_end }}</h2>
           </div>
         
           
@@ -60,7 +60,7 @@
         </div>
         
           <div class="col-sm-6 row d-flex align-items-center">
-            <h2 class="m-0">{{ event.race_name }}</h2>
+            <h2 class="m-0 text-start">{{ event.race_name }}</h2>
           <div class="">
             <img :src="event.image_url" alt="" />
             

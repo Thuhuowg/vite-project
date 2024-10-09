@@ -8,11 +8,11 @@
         <div class="row justify-content-start">
     <div class="col-4 choice-option row">
       <div class="col-3">
-        <a href="">RIDERS</a>
+        <router-link :to="{name: 'rider'}">RIDERS</router-link>
         
       </div>
       <div class="col-1">
-        <a href="">TEAM</a>
+        <router-link :to="{name: 'team'}">TEAM</router-link>  
         
       </div>
     </div>
@@ -23,22 +23,21 @@
     <div class="row">
         <!-- <router-view></router-view> -->
 <div class="col-3 container-card-rider">
-        <router-link :to="{name:'rider_detail',params: { rider_code: 'ABC123' } }">
+        <router-link :to="{name:'team_detail',params: { id: 'ABC123' } }">
      <div class="pt-4">
         <div class="card bg-dark text-white " >
-  <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/19/3a568eee-1e12-4091-b120-f53c71cbe8f6/rider-bio_francescobagnaia.png?height=400&width=600" class="card-img img-rider" alt="...">
-  <div class="card-img-overlay ">
-    <h5 class="content-medium-1">#FB1</h5>
-    <div class="row content-medium mb-0">
-        <p class="col mb-3">Francesco</p><span class="col name_rider">Bagnaia</span>
+  <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/22/769d87f4-f78b-41f1-8ac4-ac81a1c9c9b4/RLflGJDj.png?width=400" class="card-img img-team" alt="...">
+  <div class="card-img-overlay card-team">
+    <div class="row content-medium mb-0 mt-2">
+        <p class="col mb-3">Aprilia Racing</p>
     </div>
     
     <div class="row">
-        <div class="col">
-            Italy
+        <div class="team-mate">
+            Maverick Viñales
         </div>
-        <div class="col-8">
-            Ducati Lenovo Team
+        <div class="team-mate">
+            Aleix Espargaro
         </div>
     </div>
   </div>

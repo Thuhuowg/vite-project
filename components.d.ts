@@ -34,5 +34,6 @@ declare module 'vue' {
     TheProductList: typeof import('./src/components/products/TheProductList.vue')['default']
     TheRider: typeof import('./src/components/TheRider.vue')['default']
     TheSideBar: typeof import('./src/components/dashboard/TheSideBar.vue')['default']
+    TheTeam: typeof import('./src/components/TheTeam.vue')['default']
   }
 }

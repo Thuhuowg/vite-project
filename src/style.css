@@ -145,6 +145,7 @@
   font-size: 40px;
   font-weight: 800;
   line-height: 15px;
+  text-align: start;
 }
 .newsletter-section {
   background-color: #1d1d1d;
@@ -226,7 +227,7 @@ footer ul li {
   margin-top: 162px;  
   background: linear-gradient(to right, black, rgb(72, 21, 21));
   height: 550px;
-
+  overflow: hidden; 
 }
 .custom-link {
   text-decoration: none;
@@ -271,6 +272,32 @@ footer ul li {
 }
 .all-rider, .info-title {
   text-align: start;
+}
+.img-team{
+  width: 20rem;
+  margin-left: 0px;
+  padding-top: 30px;
+  object-fit: cover; /* Cắt ảnh nếu cần, giữ tỷ lệ */
+  overflow: hidden; /* Ẩn phần ảnh tràn ra ngoài */
+}
+.card-team {
+  background: rgba(0, 0, 0, 0.5); /* Nền màu đen với độ trong suốt */
+    backdrop-filter: blur(20px); /* Hiệu ứng mờ */
+    z-index: 1;
+    text-align: start;
+}
+.team-mate {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 17px;
+  color: #aaa7a7;
+}
+.img-team-1{
+  width: 15rem;
+  margin-left: 0px;
+  margin-top: -60px;
+  object-fit: cover; /* Cắt ảnh nếu cần, giữ tỷ lệ */
+  overflow: hidden; /* Ẩn phần ảnh tràn ra ngoài */
 }
 /* .info-title {
   text-align: start;

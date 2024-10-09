@@ -8,18 +8,17 @@
         <div class="row justify-content-start">
     <div class="col-4 choice-option row">
       <div class="col-3">
-        <a href="">RIDERS</a>
+        <router-link :to="{name: 'rider'}">RIDERS</router-link>
         
       </div>
       <div class="col-1">
-        <a href="">TEAM</a>
-        
+        <router-link :to="{name: 'team'}">TEAM</router-link>  
       </div>
     </div>
   </div>
   </div>
   <div class="ps-5 pt-5">
-    <button type="button" class="btn btn-danger" style="border-radius: 20px;">Motogp</button>
+    <button type="button" class="btn btn-danger " style="border-radius: 20px; ">Motogp</button>
     <div class="row">
         <!-- <router-view></router-view> -->
 <div class="col-3 container-card-rider">
@@ -27,8 +26,8 @@
      <div class="pt-4">
         <div class="card bg-dark text-white " >
   <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/19/3a568eee-1e12-4091-b120-f53c71cbe8f6/rider-bio_francescobagnaia.png?height=400&width=600" class="card-img img-rider" alt="...">
-  <div class="card-img-overlay ">
-    <h5 class="content-medium-1">#FB1</h5>
+  <div class="card-img-overlay  text-start">
+    <h5 class="content-medium-1 ">#FB1</h5>
     <div class="row content-medium mb-0">
         <p class="col mb-3">Francesco</p><span class="col name_rider">Bagnaia</span>
     </div>

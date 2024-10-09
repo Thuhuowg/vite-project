@@ -23,10 +23,21 @@ const home = [
             // }]
         },
         {
-            path:":rider_code",
+            path:"rider/:rider_code",
             name:'rider_detail',
             component: ()=> import("../components/TheRider.vue")
+        },
+        {
+            path: "team",
+            name: "team",
+            component: ()=> import("../components/ListTeam.vue")
+        },
+        {
+            path:"team/:id",
+            name: "team_detail",
+            component: ()=>import("../components/TheTeam.vue")
         }
+        
         ]
     }
 ]
