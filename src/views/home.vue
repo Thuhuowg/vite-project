@@ -28,7 +28,7 @@
                 <div>03</div>
             </div> -->
         </div>
-        <footer class="bg-light text-center py-5">
+        <footer class="bg-light text-center py-5 ">
             <TheFooter></TheFooter>
         </footer>
     </div>

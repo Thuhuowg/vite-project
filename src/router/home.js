@@ -16,6 +16,16 @@ const home = [
             path: "rider",
             name: "rider",
             component: ()=>import("../components/ListRider.vue")
+            // children: [{
+            //     path:":rider_code",
+            //     name:'rider_detail',
+            //     component: ()=> import("../components/TheRider.vue")
+            // }]
+        },
+        {
+            path:":rider_code",
+            name:'rider_detail',
+            component: ()=> import("../components/TheRider.vue")
         }
         ]
     }

@@ -17,7 +17,8 @@ declare module 'vue' {
     ListRider: typeof import('./src/components/ListRider.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    TheBanner: typeof import('./src/components/TheBanner.vue')['default']
+    TheBanner: typeof import('./src/components/races/TheBanner.vue')['default']
+    TheBannerPro: typeof import('./src/components/TheBannerPro.vue')['default']
     TheCreateRider: typeof import('./src/components/form/TheCreateRider.vue')['default']
     TheCreateTeam: typeof import('./src/components/form/TheCreateTeam.vue')['default']
     TheFooter: typeof import('./src/components/layouts/TheFooter.vue')['default']
@@ -29,6 +30,7 @@ declare module 'vue' {
     TheMenuHome: typeof import('./src/components/TheMenuHome.vue')['default']
     TheProduct: typeof import('./src/components/products/TheProduct.vue')['default']
     TheProductList: typeof import('./src/components/products/TheProductList.vue')['default']
+    TheRider: typeof import('./src/components/TheRider.vue')['default']
     TheSideBar: typeof import('./src/components/dashboard/TheSideBar.vue')['default']
   }
 }

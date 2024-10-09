@@ -1,6 +1,6 @@
 <template>
     <div class="" style="margin-top: 162px;">
-        <div class="header-calendar d-flex" style="background-color: rgb(34, 30, 30); width: 100%; height: 100px;">
+        <div class="header-calendar d-flex" style="background: linear-gradient(to right, #1c1c1c, #4c0000); width: 100%; height: 100px;"> 2024
     </div>
         <div class="group-choice col-sm-6">
         <div class="row">

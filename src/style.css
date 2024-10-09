@@ -103,12 +103,14 @@
   border: 0px;
 }
 .header-calendar {
-  font-size: 50px;
+  padding-top: 30px;
+  padding-left: 50px;
+  font-size: 30px;
   font-weight: 800;
   line-height: 15px;
   color: #fff;
   width: 100%;
-  justify-content: center;
+  justify-content: start;
   text-align: center;
   
 }
@@ -173,6 +175,102 @@ footer ul li {
 .list-brand {
   width: 40%;
 }
+.choice-option{
+  color: #fff;
+  padding-left: 64px;
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 10px;
+}
+.choice-option a{
+  text-decoration: none;
+  color: #fff;
+}
+.card {
+  width: 20rem;
+  height: 25rem;
+  border: 0px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(255, 99, 71, 0.7)); 
+  
+}
+.card-img {
+  padding: 20px;
+}
+.img-rider{
+  width: 32rem;
+  margin-left: -70px;
+  padding-top: 30px;
+}
+.card-img-overlay {
+  margin-top: 290px;
+  background: linear-gradient(to right, black, rgb(139, 0, 0));
+}
+.content-medium-1 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 10px;
+}
+.content-medium {
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 15px;
+}
+.name_rider{
+  margin-left: -50px;
+}
+.container-card-rider{
+  padding: 0px;
+}
+.rider-banner {
+  margin-top: 162px;  
+  background: linear-gradient(to right, black, rgb(72, 21, 21));
+  height: 500px;
+}
+.custom-link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  color: #aaa7a7;
+}
+.content-medium h1 {
+
+  font-weight: 900;
+  line-height: 15px;
+}
+.current-season {
+  font-size: 25px;
+}
+.background-grey {
+  border: 1px;
+  background-color: rgb(20, 20, 20);
+  width: 50%;
+}
+.text-title-score {
+  font-size: 10px;
+  font-weight: 300;
+  color: #fff;
+}
+.point {
+  font-size: 30px;
+  font-weight: 700;
+}
+.rider-title-info {
+  font-size: 30px;
+  font-weight: 800;
+  padding: 10px;
+}
+.rider-bio {
+  background-color: white; /* Màu nền */
+            padding: 20px;           /* Khoảng cách bên trong */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng */
+            transition: box-shadow 0.3s; 
+            font-size: 20px;
+            font-weight: 500;
+}
+/* body tr td .info-title {
+  color: grey !important;
+} */
 /* 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
