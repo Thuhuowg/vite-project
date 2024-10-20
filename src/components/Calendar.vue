@@ -45,9 +45,11 @@
       
         <div class="col-sm-3 col d-flex align-items-center" >
           <div class="">
-            <!--<h6 class="content-large" :class="{'text-success': event.active === 1, 'text-danger': event.active === 0}">
+        
+            <div class="justify-content-center mb-5" :class="{'text-success': event.active === 1, 'text-danger': event.active === 0}"  style="border:1px solid #1c1c1c; height: 30px; border-radius: 40px;">
                 {{ event.active === 1 ? 'Finish' : 'Upcoming' }}
-              </h6>-->
+         
+            </div>
 
           <div class="content-large row" >
             <h2 class="col ml-2 content-large">{{ event.date_start }}</h2>
@@ -61,11 +63,11 @@
         
           <div class="col-sm-6 row d-flex align-items-center">
             <h2 class="m-0 text-start">{{ event.race_name }}</h2>
-          <div class="">
-            <img :src="event.image_url" alt="" />
-            
-              <p class="content-large" style="font-size:15px">{{ event.race_location }}</p>
-
+          <div class="row d-flex justify-start align-items-center" >
+            <div class="col-1 d-flex mb-2">
+              <img :src="country_flag(event.country)" alt=""  height="30px" style="width: 40px; justify-content: start;"/>     
+            </div>
+              <p class="content-large col content-center" style="font-size:15px">{{ event.race_location }}</p>
             </div>
           
         </div>
@@ -78,24 +80,29 @@
 
 <script>
 import axios from 'axios';
+import { authentication } from '../helpers/authentication';
 
 export default {
   data() {
     return {
       calendarData: [], // Mảng để lưu dữ liệu lịch thi đấu
-      groupedCalendarData: {}
+      groupedCalendarData: {},
+      img_country:null
     };
   },
 
   mounted() {
     this.fetchCalendar();
+    this.country_flag()
   },
 
   methods: {
     async fetchCalendar() {
+      console.log(localStorage.getItem('token'));
       const apiURL = 'http://localhost:3000/calendar'; // URL của API
       try {
         const response = await axios.get(apiURL);
+        console.log(response)
         this.calendarData = response.data; // Gán dữ liệu trả về cho calendarData
         this.groupMatchesByMonth(); // Gọi hàm để nhóm các trận đấu theo tháng
       } catch (error) {
@@ -113,7 +120,31 @@ export default {
         acc[month].push(match); // Thêm trận đấu vào mảng tương ứng với tháng
         return acc;
       }, {});
-    }
+    },
+     country_flag(name) {
+    const lang = {
+       'Vietnam': '', // nếu có cờ cho Việt Nam
+        'Australia': 'https://static-files.motogp.pulselive.com/assets/flags/au.svg',
+        'Spain': 'https://static-files.motogp.pulselive.com/assets/flags/es-ct.svg',
+        'France': 'https://static-files.motogp.pulselive.com/assets/flags/fr.svg',
+        'Italy': 'https://static-files.motogp.pulselive.com/assets/flags/it.svg',
+        'Japan': 'https://static-files.motogp.pulselive.com/assets/flags/jp.svg',
+        'South Africa': 'https://static-files.motogp.pulselive.com/assets/flags/za.svg',
+        'Qatar': 'https://static-files.motogp.pulselive.com/assets/flags/qa.svg',
+        'Portugal': 'https://static-files.motogp.pulselive.com/assets/flags/pt.svg',
+        'Germany': 'https://static-files.motogp.pulselive.com/assets/flags/de.svg',
+        'Great Britain': 'https://static-files.motogp.pulselive.com/assets/flags/gb.svg',
+        'Austria': 'https://static-files.motogp.pulselive.com/assets/flags/at.svg',
+        'Indonesia':'https://static-files.motogp.pulselive.com/assets/flags/id.svg',
+        'Thailand':'https://static-files.motogp.pulselive.com/assets/flags/th.svg',
+        'Malaysia':'https://static-files.motogp.pulselive.com/assets/flags/my.svg',
+        'Netherlands':'https://static-files.motogp.pulselive.com/assets/flags/nl.svg',
+        'USA':'https://static-files.motogp.pulselive.com/assets/flags/us.svg'
+
+    };
+
+    return lang[name] || null; // Trả về giá trị tương ứng hoặc null nếu không tìm thấy
+}
   }
 };
 </script>

@@ -36,6 +36,34 @@ const home = [
             path:"team/:id",
             name: "team_detail",
             component: ()=>import("../components/TheTeam.vue")
+        },
+
+        {
+            path: "result/:race_id",
+            name: "result",
+            component:()=>import("../components/TheResult.vue")
+        },
+        {
+            path: "/standings",
+            name:"standing",
+            component: ()=>import ("../components/TheStandings.vue")
+        },
+        {
+            path: "login",
+            name:"login-client",
+            component: ()=>import("../components/Login.vue"),
+            // beforeEnter: (to, from, next) => {
+            //     const token = localStorage.getItem('token');
+            //     // const isAuthenticated = /* logic to check authentication */;
+            //     if (!token) {
+            //         next({ name: 'home-client' }); // Cho phép vào trang
+            //     } 
+            //   }
+        },
+        {
+            path:"register",
+            name: "register",
+            component: ()=>import("../components/Login.vue"),
         }
         
         ]

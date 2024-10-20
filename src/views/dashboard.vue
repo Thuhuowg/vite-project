@@ -2,16 +2,17 @@
     <div class="container-fluid p-0">
         <TheHeaderAdmin></TheHeaderAdmin>
     </div>
-        <div class="min-h-screen">
+        <div class="">
             <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-2" style="height: 1600px ;">
                 <TheSideBar></TheSideBar>
             </div>
-            <div class="col-sm-8">
-                <TheCreateTeam></TheCreateTeam>
+            <div class="col-sm min-h-screen">
+                <router-view></router-view>
             </div>
            
             
+        </div>
         </div>
     
 </template>
@@ -28,7 +29,7 @@ export default {
         TheHeaderAdmin,
         TheSideBar,
         TheCreateTeam,
-        TheListTeamsVue
+
     }
 }
 

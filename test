@@ -1,3 +1,150 @@
+INSERT INTO results (rider_code, race_id, score_race_current, "time", first_finish)
+VALUES 
+('FB1', 16, 25, INTERVAL '00:42:09.790', true),
+('JM89', 16, 20, INTERVAL '00:42:10.979', false),
+('MM93', 16, 16, INTERVAL '00:42:13.612', false),
+('EB23', 16, 13, INTERVAL '00:42:14.148', false),
+('FM21', 16, 11, INTERVAL '00:42:27.730', false),
+('BB33', 16, 10, INTERVAL '00:42:28.292', false),
+('MB72', 16, 9, INTERVAL '00:42:29.161', false),
+('FD49', 16, 8, INTERVAL '00:42:29.989', false),
+('AE41', 16, 7, INTERVAL '00:42:40.232', false),
+('JM43', 16, 6, INTERVAL '00:42:40.974', false),
+('JZ5', 16, 5, INTERVAL '00:42:41.357', false),
+('FQ20', 16, 4, INTERVAL '00:42:42.089', false),
+('TN30', 16, 3, INTERVAL '00:42:42.793', false),
+('LM10', 16, 2, INTERVAL '00:42:45.764', false),
+('RF25', 16, 1, INTERVAL '00:42:49.111', false),
+('AR42', 16, 0, INTERVAL '00:42:50.629', false),
+('RG87', 16, 0, INTERVAL '00:43:09.337', false),
+('JM89', 15, 25, INTERVAL '00:41:04.389', true),
+('PA31', 15, 20, INTERVAL '00:41:05.793', false),
+('FB1', 15, 16, INTERVAL '00:41:09.984', false),
+('FM21', 15, 13, INTERVAL '00:41:10.896', false),
+('MB72', 15, 11, INTERVAL '00:41:11.161', false),
+('MV12', 15, 10, INTERVAL '00:41:15.719', false),
+('FQ20', 15, 9, INTERVAL '00:41:17.592', false),
+('BB33', 15, 8, INTERVAL '00:41:19.512', false),
+('JZ5', 15, 7, INTERVAL '00:41:19.540', false),
+('RF25', 15, 6, INTERVAL '00:41:25.468', false),
+('AR42', 15, 5, INTERVAL '00:41:38.022', false),
+('TN30', 15, 4, INTERVAL '00:41:48.085', false),
+('EB23', 14, 25, INTERVAL '00:41:14.653', true),
+('JM89', 14, 20, INTERVAL '00:41:19.655', false),
+('MM93', 14, 16, INTERVAL '00:41:22.501', false),
+('MB72', 14, 13, INTERVAL '00:41:23.853', false),
+('FM21', 14, 11, INTERVAL '00:41:28.254', false),
+('MV12', 14, 10, INTERVAL '00:41:30.137', false),
+('FQ20', 14, 9, INTERVAL '00:41:35.575', false),
+('AE41', 14, 8, INTERVAL '00:41:37.448', false),
+('AM73', 14, 7, INTERVAL '00:41:42.357', false),
+('MO88', 14, 6, INTERVAL '00:41:46.544', false),
+('JM36', 14, 5, INTERVAL '00:41:47.715', false),
+('LM10', 14, 4, INTERVAL '00:41:50.064', false),
+('RF25', 14, 3, INTERVAL '00:41:50.988', false),
+('FD49', 14, 2, INTERVAL '00:41:52.048', false),
+('JZ5', 14, 1, INTERVAL '00:41:53.562', false),
+('JM43', 14, 0, INTERVAL '00:41:55.107', false),
+('TN30', 14, 0, INTERVAL '00:42:01.047', false),
+('AF37', 14, 0, INTERVAL '00:42:02.408', false),
+('BB33', 14, 0, INTERVAL '00:42:40.571', false),
+('MM93', 13, 25, INTERVAL '00:41:52.083', true),
+('FB1', 13, 20, INTERVAL '00:41:55.185', false),
+('EB23', 13, 16, INTERVAL '00:42:00.613', false),
+('BB33', 13, 13, INTERVAL '00:42:14.798', false),
+('MB72', 13, 11, INTERVAL '00:42:31.523', false),
+('AM73', 13, 10, INTERVAL '00:42:49.105', false),
+('FQ20', 13, 9, INTERVAL '00:43:06.747', false),
+('JM43', 13, 8, INTERVAL '00:43:26.074', false),
+('FD49', 13, 7, INTERVAL '00:43:54.020', false),
+('PE44', 13, 6, INTERVAL '00:44:32.801', false),
+('MO88', 13, 5, INTERVAL '00:45:19.187', false),
+('JZ5', 13, 4, INTERVAL '00:46:21.824', false),
+('TN30', 13, 3, INTERVAL '00:47:32.541', false),
+('SB6', 13, 2, INTERVAL '00:48:50.088', false),
+('JM89', 13, 1, INTERVAL '00:00:00', false),
+('MV12', 13, 0, INTERVAL '00:00:00', false),
+('PA31', 13, 0, INTERVAL '00:00:00', false),
+('RF25', 13, 0, INTERVAL '00:00:00', false),
+('AR42', 13, 0, INTERVAL '00:00:00', false),
+('MM93', 12, 25, INTERVAL '00:41:47.082', true),
+('JM89', 12, 20, INTERVAL '00:41:51.871', false),
+('PA31', 12, 16, INTERVAL '00:42:06.775', false),
+('BB33', 12, 13, INTERVAL '00:42:23.234', false),
+('EB23', 12, 11, INTERVAL '00:42:42.010', false),
+('FM21', 12, 10, INTERVAL '00:43:02.559', false),
+('MB72', 12, 9, INTERVAL '00:43:27.318', false),
+('FD49', 12, 8, INTERVAL '00:44:04.477', false),
+('AR42', 12, 7, INTERVAL '00:44:43.897', false),
+('AE41', 12, 6, INTERVAL '00:45:24.499', false),
+('TN30', 12, 5, INTERVAL '00:46:06.281', false),
+('AF37', 12, 4, INTERVAL '00:46:48.364', false),
+('JZ5', 12, 3, INTERVAL '00:47:31.628', false),
+('JM36', 12, 2, INTERVAL '00:48:21.363', false),
+('JM43', 12, 1, INTERVAL '00:49:17.329', false),
+('RF25', 12, 0, INTERVAL '00:50:30.651', false),
+('LM10', 12, 0, INTERVAL '00:53:22.037', false),
+('FB1', 11, 25, INTERVAL '00:42:11.173', true),
+('JM89', 11, 20, INTERVAL '00:42:14.405', false),
+('EB23', 11, 16, INTERVAL '00:42:23.750', false),
+('MB72', 11, 13, INTERVAL '00:42:36.755', false),
+('TN30', 11, 10, INTERVAL '00:42:46.431', false),
+('FQ20', 11, 9, INTERVAL '00:42:57.582', false),
+('MM93', 11, 8, INTERVAL '00:43:02.536', false),
+('RF25', 11, 7, INTERVAL '00:43:04.736', false),
+('FM21', 11, 6, INTERVAL '00:43:17.272', false),
+('AM73', 11, 5, INTERVAL '00:43:22.211', false),
+('FD49', 11, 4, INTERVAL '00:43:43.223', false),
+('LM10', 11, 3, INTERVAL '00:44:14.446', false),
+('JM43', 11, 2, INTERVAL '00:44:29.463', false),
+('PA31', 11, 1, INTERVAL '00:45:01.651', false),
+('JZ5', 11, 0, INTERVAL '00:45:14.371', false),
+('RF25', 10, 25, INTERVAL '00:42:35.874', true),
+('FQ20', 10, 20, INTERVAL '00:42:39.210', false),
+('MM93', 10, 16, INTERVAL '00:42:44.426', false),
+('FB1', 10, 13, INTERVAL '00:42:56.241', false),
+('PA31', 10, 10, INTERVAL '00:43:00.352', false),
+('JM89', 10, 9, INTERVAL '00:43:05.854', false),
+('MV12', 10, 8, INTERVAL '00:43:11.002', false),
+('FD49', 10, 7, INTERVAL '00:43:25.873', false),
+('TN30', 10, 6, INTERVAL '00:43:32.430', false),
+('BB33', 10, 5, INTERVAL '00:43:54.015', false),
+('LM10', 10, 4, INTERVAL '00:44:01.063', false),
+('JM43', 10, 3, INTERVAL '00:44:05.145', false),
+('JM36', 10, 2, INTERVAL '00:44:10.045', false),
+('AR42', 10, 1, INTERVAL '00:44:23.752', false),
+('TN30', 10, 0, INTERVAL '00:45:10.574', false),
+('BB33', 10, 0, INTERVAL '00:46:34.473', false),
+('FQ20', 11, 5, INTERVAL '00:46:04.974', false),
+('PA31', 11, 4, INTERVAL '00:46:28.514', false),
+('RF25', 11, 3, INTERVAL '00:47:22.424', false),
+('JM36', 11, 2, INTERVAL '00:48:22.754', false),
+('JZ5', 11, 1, INTERVAL '00:49:14.488', false),
+('TN30', 11, 0, INTERVAL '00:50:09.397', false),
+('JM89', 10, 25, INTERVAL '00:41:46.444', true),
+('MM93', 10, 20, INTERVAL '00:41:52.536', false),
+('MB72', 10, 16, INTERVAL '00:41:55.301', false),
+('FB1', 10, 13, INTERVAL '00:42:03.416', false),
+('FQ20', 10, 11, INTERVAL '00:42:10.827', false),
+('AE41', 10, 10, INTERVAL '00:42:33.232', false),
+('AR42', 10, 9, INTERVAL '00:43:07.496', false),
+('JM43', 10, 8, INTERVAL '00:43:23.407', false),
+('FD49', 10, 7, INTERVAL '00:43:47.505', false),
+('MV12', 10, 6, INTERVAL '00:44:11.829', false),
+('FM21', 10, 5, INTERVAL '00:44:36.049', false),
+('TN30', 10, 4, INTERVAL '00:44:55.879', false),
+('AM73', 10, 3, INTERVAL '00:45:10.084', false),
+('RF25', 10, 2, INTERVAL '00:46:38.079', false),
+('BB33', 10, 1, INTERVAL '00:47:10.252', false),
+('LM10', 10, 0, INTERVAL '00:48:31.464', false);
+
+
+
+
+
+
+
+
 insert into riders (rider_code,first_name,last_name,date_of_birth,nationality,championship,rider_image,team_id,heigth,weight,rider_story)
 values 
 ('JZ5','Francesco','Bagnaia','1997-01-16','Italy','3','https://resources.motogp.pulselive.com/photo-resources/2024/02/19/3a568eee-1e12-4091-b120-f53c71cbe8f6/rider-bio_francescobagnaia.png?height=1200&width=1600','3','177','70','Italian Francesco Bagnaia moved to the highly competitive CEV Championship in Spain in 2010, and he came third overall that year. He was reconfirmed for the Monlau Competicion team for 2012 and won another race before the step up to the World Championship, where he partnered Roman Fenati in the Team Italia FMI in 2013. For 2014 he switched teams as well as machinery as he lined up for the Sky Racing Team VR46 on a KTM, and 2015 brought another new challenge with the new Aspar Team Mahindra. Ending the year as the top Mahindra rider, the Italian was also frequently involved in the podium battle, retaining his seat for 2016 and going on to take not only a maiden win in Assen, but also a second win in Sepang. Earning a test ride on the team’s MotoGP™ machine in Valencia at the end of the season, Bagnaia moved up to Moto2™ in 2017 with the new Sky Racing Team VR46 intermediate class effort and was Rookie of the Year, taking several podiums. In 2018 he hit the ground running and was a contender for the crown from the off, with some incredible wins and consistency seeing him eventually take the title in Malaysia.'),
@@ -22,3 +169,106 @@ values
 ('MO88','Miguel','Oliveira','1995-01-04','Portugal','0','https://resources.motogp.pulselive.com/photo-resources/2024/08/02/667c8748-1e0e-492f-a659-ac404321141d/88-Miguel-Oliveira-MotoGP_rider.png?height=1200&width=1600','12','177','70','Miguel Oliveira’s first big successes came in 2005 and 2006 when he won the Portuguese MiniGP championship. In 2009 he was third in the FIM CEV Repsol, and in 2010 battled Maverick Viñales to the final race of the season for the title - eventually finishing runner-up by just two points prior to his World Championship debut in 2011. Oliveira raced full time in 2012 with the Estrella Galicia 0,0 team and took two podiums, before in 2013 he joined Mahindra Racing and made headlines by grabbing the Indian manufacturer’s first ever podium in Malaysia. In 2014 remained on the Mahindra, taking another podium at Assen, before being recruited by Red Bull KTM Ajo for 2015. The Moto3™ season got off to a difficult start for the Portuguese rider but he won in both Mugello and Assen, before breaking his wrist in Germany. All hope looked lost as Danny Kent left the British GP with a 110 point lead over the KTM rider, but an incredible comeback saw Oliveira take four wins and two seconds in the final six races and challenge down to the final round, coming runner up.'),
 ('JM89','Jorge','Martin','1998-01-29','Spain','1','https://resources.motogp.pulselive.com/photo-resources/2024/03/07/2b32c79b-826b-4371-b357-3504438f4973/89-Jorge-Martin-Official-Rider_DSC9358.png?height=1200&width=1600','8','180','72','Jorge Martin joined the Red Bull Rookies Cup for the 2012 season. Unfortunately it was a season plagued by various injuries, but the following year he tried again and finished runner-up behind the 2013 champion Karel Hanika. In 2014 he dominated the same Championship and took the crown. For 2015 Martín took the next step and participated in his first full season in the Moto3™ World Championship, where he joined the Mahindra Mapfre Aspar team. An awesome seventh in Aragon helped the Spaniard to finish the year 17th overall, with he and the Aspar team electing to continue their relationship for 2016. For 2017, the Spaniard moved to Del Conca Gresini Racing Moto3 to replace outgoing title contender Enea Bastianini. The master of qualifying and on pole for half the entire season, Martin took an impressive nine podiums despite a mid-season injury, and his maiden win in the season finale on the way to P4 overall. His stellar year would arrive in 2018 as Martin beat Marco Bezzecchi to the Moto3™ crown, claiming seven victories despite picking up another mid-season injury.'),
 ('MM93','Marc','Marquez','1993-02-17','Spain','8','https://resources.motogp.pulselive.com/photo-resources/2024/02/19/986b0e12-1db0-49d8-ae13-fd556286237a/93_Marc_MarquezFullbodyGresini.png?height=1200&width=1600','4','180','74','Marc Marquez became the youngest ever six-time World Champion after taking his fourth premier class crown in 2017. On the podium in his rookie 125 campaign in 2008, Marquez won that crown in 2010 before moving up to Moto2™ for 2011. After a tough start, the rider from Cervera went on an incredible winning spree and had closed the gap to Championship leader Stefan Bradl to a handful of points, before a crash in practice for the Malaysian GP saw Marquez forced to cede the fight and miss the two remaining races of the year. Problems with his vision in the off season saw surgery then finally fix the problem, and despite the shortened preparation for 2012 the Spaniard took the crown in stunning style by the Australian GP.');
+
+const lang = {
+    'vi':'',
+    'au' : 'https://static-files.motogp.pulselive.com/assets/flags/au.svg',
+    'es' : 'https://static-files.motogp.pulselive.com/assets/flags/es.svg',
+    'fr' : 'https://static-files.motogp.pulselive.com/assets/flags/fr.svg',
+    'it' : 'https://static-files.motogp.pulselive.com/assets/flags/it.svg',
+    'jp' : 'https://static-files.motogp.pulselive.com/assets/flags/jp.svg',
+    'za' : 'https://static-files.motogp.pulselive.com/assets/flags/za.svg',
+    
+}
+
+
+
+
+
+UPDATE riders
+SET date_of_birth = '1997-01-14', heigth = 176, weight = 64
+WHERE rider_code = 'FB1';
+
+UPDATE riders
+SET date_of_birth = '1990-07-16', heigth = 171, weight = 68
+WHERE rider_code = 'JZ5';
+
+UPDATE riders
+SET date_of_birth = '1997-08-10', heigth = 184, weight = 69
+WHERE rider_code = 'LM10';
+
+UPDATE riders
+SET date_of_birth = '1995-01-12', heigth = 171, weight = 64
+WHERE rider_code = 'MV12';
+
+UPDATE riders
+SET date_of_birth = '1999-04-20', heigth = 177, weight = 69
+WHERE rider_code = 'FQ20';
+
+UPDATE riders
+SET date_of_birth = '1994-12-04', heigth = 176, weight = 68
+WHERE rider_code = 'FM21';
+
+UPDATE riders
+SET date_of_birth = '1997-12-30', heigth = 168, weight = 64
+WHERE rider_code = 'EB23';
+
+UPDATE riders
+SET date_of_birth = '2000-10-23', heigth = 178, weight = 65
+WHERE rider_code = 'RF25';
+
+UPDATE riders
+SET date_of_birth = '1992-02-09', heigth = 175, weight = 70
+WHERE rider_code = 'TN30';
+
+UPDATE riders
+SET date_of_birth = '2004-05-25', heigth = 171, weight = 63
+WHERE rider_code = 'PA31';
+
+UPDATE riders
+SET date_of_birth = '1995-08-11', heigth = 170, weight = 63
+WHERE rider_code = 'BB33';
+
+UPDATE riders
+SET date_of_birth = '1997-09-01', heigth = 181, weight = 69
+WHERE rider_code = 'JM36';
+
+UPDATE riders
+SET date_of_birth = '1997-09-23', heigth = 181, weight = 73
+WHERE rider_code = 'AF37';
+
+UPDATE riders
+SET date_of_birth = '1989-07-30', heigth = 180, weight = 66
+WHERE rider_code = 'AE41';
+
+UPDATE riders
+SET date_of_birth = '1995-12-08', heigth = 176, weight = 68
+WHERE rider_code = 'AR42';
+
+UPDATE riders
+SET date_of_birth = '1995-01-18', heigth = 173, weight = 64
+WHERE rider_code = 'JM43';
+
+UPDATE riders
+SET date_of_birth = '1998-10-10', heigth = 177, weight = 62
+WHERE rider_code = 'FD49';
+
+UPDATE riders
+SET date_of_birth = '1998-11-12', heigth = 176, weight = 64
+WHERE rider_code = 'MB72';
+
+UPDATE riders
+SET date_of_birth = '1996-04-23', heigth = 180, weight = 65
+WHERE rider_code = 'AM73';
+
+UPDATE riders
+SET date_of_birth = '1995-01-04', heigth = 170, weight = 64
+WHERE rider_code = 'MO88';
+
+UPDATE riders
+SET date_of_birth = '1998-01-29', heigth = 168, weight = 63
+WHERE rider_code = 'JM89';
+
+UPDATE riders
+SET date_of_birth = '1993-02-17', heigth = 169, weight = 64
+WHERE rider_code = 'MM93';

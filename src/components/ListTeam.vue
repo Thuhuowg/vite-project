@@ -22,22 +22,19 @@
     <button type="button" class="btn btn-danger" style="border-radius: 20px;">Motogp</button>
     <div class="row">
         <!-- <router-view></router-view> -->
-<div class="col-3 container-card-rider">
-        <router-link :to="{name:'team_detail',params: { id: 'ABC123' } }">
+<div v-for="team in listTeamData" :key="team.id" class="col-3 container-card-rider mb-5">
+        <router-link :to="{name:'team_detail',params: { id: team.id } }">
      <div class="pt-4">
         <div class="card bg-dark text-white " >
-  <img src="https://resources.motogp.pulselive.com/photo-resources/2024/02/22/769d87f4-f78b-41f1-8ac4-ac81a1c9c9b4/RLflGJDj.png?width=400" class="card-img img-team" alt="...">
+  <img :src="team.moto_image" class="card-img img-team" alt="...">
   <div class="card-img-overlay card-team">
     <div class="row content-medium mb-0 mt-2">
-        <p class="col mb-3">Aprilia Racing</p>
+        <p class="col mb-3" style="line-height: 30px;">{{ team.team_name }}</p>
     </div>
     
-    <div class="row">
+    <div v-for="teammate in team.rider_on_team" :key="teammate.id" class="row">
         <div class="team-mate">
-            Maverick Viñales
-        </div>
-        <div class="team-mate">
-            Aleix Espargaro
+            {{ teammate.first_name }} {{ teammate.last_name }}
         </div>
     </div>
   </div>
@@ -49,3 +46,30 @@
   </div>
     </div>
 </template>
+<script>
+import axios from 'axios';
+
+export default {
+  data() {
+    return {
+      listTeamData: [] 
+    };
+  },
+ 
+  mounted() {
+    this.listTeam();
+  },
+  methods: {
+    async listTeam() {
+      const apiURL = 'http://localhost:3000/team'; // URL của API
+      try {
+        const response = await axios.get(apiURL);
+        this.listTeamData = response.data; 
+      } catch (error) {
+        console.error('Lỗi khi lấy dữ liệu từ API:', error);
+      }
+    }
+    
+  }
+};
+</script>

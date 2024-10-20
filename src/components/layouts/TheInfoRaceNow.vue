@@ -2,7 +2,7 @@
     <div class="infor-race-now">
   <div class="row" style="width: 100%;">
     <div class="col-sm-4 info">
-        Pertamina Grand Prix of Indonesia
+      Motul Grand Prix of Japan
     </div>
     <div class="col-sm-4 info">
         Up Next - Moto3 Qualifying Nr. 1
