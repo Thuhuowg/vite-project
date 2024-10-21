@@ -46,9 +46,9 @@
             </button>
           </a>
           </div>
-          <div class="col-sm-1">
+          <div class="col-sm-2">
             <a href="#">
-            <button type="button" class="https://www.motogp.com/en/news">
+            <button type="button" href="https://www.motogp.com/en/news" class="btn btn-outline-danger">
               New
             </button>
           </a>
