@@ -18,6 +18,7 @@
       <th scope="width-col-2">#</th>
       <th scope="width-col-2">Mã tay đua</th>
       <th scope="col">Tên tay đua</th>
+      <th scope="col">Thời gian xoá</th>
       <th scope="col">Thao tác</th>
     </tr>
   </thead>
@@ -26,6 +27,7 @@
       <th class="width-col-1" scope="row">{{ index+1 }}</th>
       <td class="width-col-3">{{rider.rider_code}}</td>
       <td >{{rider.first_name}} {{ rider.last_name }}</td>
+      <td>{{ rider.deleted_at }}</td>
       <td class="width-col-2">
         <div class="row">
           <!-- <div class="col p-0">
