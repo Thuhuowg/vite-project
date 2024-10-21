@@ -46,8 +46,8 @@
     {{ rider.rider_images }}
   </div>
 </div>
-<div class="what-to-watch">
-    <h2>What To Watch</h2>
+<div class="what-to-watch " style=" margin-top: 100px;">
+    <h2 >What To Watch</h2>
     <div class="watch-grid">
       <div v-for="(item, index) in items" :key="index" class="watch-item">
         <a :href="item.link" target="_blank">
